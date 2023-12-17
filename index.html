@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Khéops</title>
+
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <link rel="icon" href="./resources/imgs/pyramid.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <div id="forceSize">
+            <img src="./resources/imgs/fullScreen.svg" alt="icon" style="width: 45px;">
+            <span>The app is only usable on fullscreen</span>
+        </div>
+        <div id="app">
+            <div id="mainFrame">
+                <div id="patch"></div>
+                <div id="patch2"></div>
+                <img src="./resources/imgs/mainLandscape3.svg" alt="landscape" id="main_landscape" class="landscape">
+                <img src="./resources/imgs/mainLandscapeIn3.svg" alt="landscape" id="main_landscapeIn" class="landscape">
+
+                <span id="hint">🛈 Get closer to the Pyramid</span>
+                
+                <div id="mainTextContainer">
+                    <div id="zerotextBloc" class="textBlock">
+                        <span id="zeroText" class="bigText">Click anywhere</span>
+                        <span id="zeroText_sub" class="smallText">To start your Journey</span>
+                    </div>
+                    <div id="firsttextBloc" class="textBlock">
+                        <img src="./resources/imgs/headphones.png" alt="" id="headphone_icon" style="filter: invert(100%) sepia(0%) saturate(7462%) hue-rotate(338deg) brightness(99%) contrast(93%);">
+                        <span id="firstText" class="smallText">Use headphones for a better experience</span>
+                    </div>
+                    <div id="secondtextBloc" class="textBlock">
+                        <span id="secondText" class="bigText">KHEOPS</span>
+                        <span id="secondText_sub" class="smallText">An original experience</span>
+                    </div>
+                </div>
+
+                <div id="doorContainer">
+                    <div id="doorFirstLine" class="doorLine">
+                        <div class="door">
+                            <img src="./resources/imgs/doorOpen2.svg" alt="doorOpened" class="doorOpened">
+                            <img src="./resources/imgs/doorClose2.svg" alt="doorClosed" class="doorClosed">
+                        </div>
+                    </div>
+
+                    <div id="doorSecondLine" class="doorLine">
+                        <div class="door">
+                            <img src="./resources/imgs/doorOpen2.svg" alt="doorOpened" class="doorOpened">
+                            <img src="./resources/imgs/doorClose2.svg" alt="doorClosed" class="doorClosed">
+                        </div>
+            
+                        <div class="door">
+                            <img src="./resources/imgs/doorOpen2.svg" alt="doorOpened" class="doorOpened">
+                            <img src="./resources/imgs/doorClose2.svg" alt="doorClosed" class="doorClosed">
+                        </div>
+                    </div>
+
+                    <div id="doorThirdLine" class="doorLine">
+                        <div class="door">
+                            <img src="./resources/imgs/doorOpen2.svg" alt="doorOpened" class="doorOpened">
+                            <img src="./resources/imgs/doorClose2.svg" alt="doorClosed" class="doorClosed">
+                        </div>
+            
+                        <div class="door">
+                            <img src="./resources/imgs/doorOpen2.svg" alt="doorOpened" class="doorOpened">
+                            <img src="./resources/imgs/doorClose2.svg" alt="doorClosed" class="doorClosed">
+                        </div>
+                        
+                        <div class="door">
+                            <img src="./resources/imgs/doorOpen2.svg" alt="doorOpened" class="doorOpened">
+                            <img src="./resources/imgs/doorClose2.svg" alt="doorClosed" class="doorClosed">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="articleFrame">
+                <img src="./resources/imgs/ArrowBtn.png" alt="Leave Article" id="articleLeaveBtn">
+
+                <div id="articleBody">
+                    <span id="articleTitle"></span>
+                    <img src="" id="articleImage" alt="">
+                    <div id="articleContent"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
